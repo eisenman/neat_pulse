@@ -24,5 +24,7 @@ A read-only API key can be created from the Neat Pulse Settings menu for any org
 The API polling internal is set to 6 seconds in const.py. At some point this should be made to be a per-device configurable value as part of the setup process.
 
 Neat Pulse API Details:
+
 https://pulse.neat.no/apidocs/#api-Endpoints-endpointsSensorData
+
 https://pulse.neat.no/apidocs/#api-Endpoints-endpointsGet
