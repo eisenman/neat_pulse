@@ -1,5 +1,3 @@
-#temp works, timestamp, vocindex broken
-
 import logging
 from datetime import timedelta, datetime, timezone
 from typing import Optional, Dict, Any
@@ -39,10 +37,6 @@ SENSOR_CONFIG: Dict[str, Dict[str, Optional[str]]] = {
         "unit": UnitOfTemperature.CELSIUS,
         "device_class": SensorDeviceClass.TEMPERATURE,
     },
-    "temperature": {
-        "unit": UnitOfTemperature.CELSIUS,
-        "device_class": SensorDeviceClass.TEMPERATURE,
-    },
     "humidity": {
         "unit": PERCENTAGE,
         "device_class": SensorDeviceClass.HUMIDITY,
@@ -71,7 +65,6 @@ SENSOR_CONFIG: Dict[str, Dict[str, Optional[str]]] = {
         "unit": None,
         "device_class": SensorDeviceClass.TIMESTAMP,
     },
-    # Add more sensor types as needed
 }
 
 # List of sensor types that do not require a unit
@@ -138,7 +131,6 @@ async def async_setup_entry(
             f"Added sensor entity '{sensor_entity.name}' with unit '{unit}' and device class '{device_class}'."
         )
 
-    # Optionally add other sensors like 'inCallStatus'
     if "inCallStatus" in endpoint.get("details", {}):
         call_status_sensor = NeatPulseCallStatusSensor(
             coordinator=coordinator,
@@ -310,7 +302,7 @@ class NeatPulseSensor(SensorEntity):
                 )
                 return dt_value
 
-            elif self.sensor_type in ["temp", "temperature", "humidity"]:
+            elif self.sensor_type in ["temp", "humidity"]:
                 return round(float(value), 2)
 
             elif self.sensor_type == "people":
