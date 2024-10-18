@@ -12,7 +12,6 @@ Not all Neat devices have each of these sensors, so ymmv.
 The values for the following are also returned:
 - Call Status (NONE, ZOOM, TEAMS)
 - Device Name
-- Device Model
 
 Once added to HACS, you will need the following details from Neat Pulse to add a device:
 - Organization ID
