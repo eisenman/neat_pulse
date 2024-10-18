@@ -6,6 +6,7 @@
   "requirements": ["aiohttp"],
   "codeowners": ["@eisenman"],
   "config_flow": true,
-  "icon": "neat-icon.png"
+  "integration_type": "device",
+  "icon": "neat-icon.png",
   "iot_class": "cloud_polling"
 }
