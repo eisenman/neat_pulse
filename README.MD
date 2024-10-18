@@ -1,4 +1,4 @@
-This integration brings Neat device sensor data into Home Assistant:
+This HACS integration brings Neat device sensor data into Home Assistant:
 - co2
 - humidity
 - illumination
