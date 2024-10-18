@@ -1,4 +1,4 @@
-This add-on brings Neat device sensor data into Home Assistant:
+This integration brings Neat device sensor data into Home Assistant:
 - co2
 - humidity
 - illumination
