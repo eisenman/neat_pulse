@@ -3,7 +3,6 @@
   "name": "Neat Pulse",
   "version": "1.0.0",
   "documentation": "https://github.com/eisenman/neat_pulse",
-  "requirements": ["aiohttp"],
   "codeowners": ["@eisenman"],
   "config_flow": true,
   "integration_type": "device",
