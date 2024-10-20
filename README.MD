@@ -19,7 +19,7 @@ Once added to HACS, you will need the following details from Neat Pulse to add a
 - Device ID for device to be added
 
 The org id (7 characters) and device id (36 characters) are both visible in the Neat Pulse url path when viewing the details for any given device. 
-A read-only API key can be created from the Neat Pulse Settings menu for any org that has API entitlement.
+A read-only API key can be created from the Neat Pulse Settings > API Keys menu for any org that has API entitlement.
 
 The API polling interval defaults to 6 seconds in const.py and can be changed in the integration options once a device is added.
 
