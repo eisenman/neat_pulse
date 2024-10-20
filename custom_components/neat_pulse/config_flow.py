@@ -62,9 +62,9 @@ class NeatPulseConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
 
         data_schema = vol.Schema(
             {
-                vol.Required(CONF_ACCESS_TOKEN, description={"name": "API Key"}): str,
-                vol.Required(CONF_ORGANIZATION_ID, description={"name": "Organization ID"}): str,
-                vol.Required(CONF_ENDPOINT_ID, description={"name": "Device ID"}): str,
+                vol.Required(CONF_ACCESS_TOKEN, title="API Key"): str,
+                vol.Required(CONF_ORGANIZATION_ID, title="Organization ID"): str,
+                vol.Required(CONF_ENDPOINT_ID, title="Device ID"): str,
             }
         )
 
