@@ -23,6 +23,8 @@ A read-only API key can be created from the Neat Pulse Settings > API Keys menu 
 
 The API polling interval defaults to 6 seconds in const.py and can be changed in the integration options once a device is added.
 
+<a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=eisenman&repository=neat_pulse&category=Integration" target="_blank" rel="noreferrer noopener"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Open your Home Assistant instance and open a repository inside the Home Assistant Community Store." /></a>
+
 Neat Pulse API Details:
 
 https://pulse.neat.no/apidocs/#api-Endpoints-endpointsSensorData
