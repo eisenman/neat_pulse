@@ -7,7 +7,8 @@ This HACS integration brings Neat device sensor data into Home Assistant:
 - voc
 - vocIndex
 
-Not all Neat devices have each of these sensors, so ymmv.
+Not all Neat devices have each of these sensors. More sensor details here:
+https://neatframe.slab.com/public/posts/neat-sensor-data-atesy82y
 
 The values for the following are also returned:
 - Call Status (NONE, ZOOM, TEAMS)
