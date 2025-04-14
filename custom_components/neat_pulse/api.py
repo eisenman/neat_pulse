@@ -6,7 +6,7 @@ import logging
 
 _LOGGER = logging.getLogger(__name__)
 
-BASE_URL = "https://pulse.neat.no/api/v1"
+BASE_URL = "https://api.pulse.neat.no/v1"
 
 class NeatPulseAPIError(Exception):
     """General API error."""
